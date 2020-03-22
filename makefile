@@ -20,3 +20,6 @@ clean: start
 
 build: start
 	docker-compose exec node npm run build
+
+publish: start
+	docker-compose exec node npm publish --access public
