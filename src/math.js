@@ -1,8 +1,8 @@
 "use strict";
 
-const { decimalsUntilInteger } = require("./utils.js");
+import { decimalsUntilInteger } from "./utils.js";
 
-function add(number1, number2) {
+export function add(number1, number2) {
     if (arguments.length !== 2) {
         throw new Error("expected exactly 2 arguments");
     }
@@ -25,7 +25,7 @@ function add(number1, number2) {
     return number1 + number2;
 }
 
-function divide(number1, number2) {
+export function divide(number1, number2) {
     if (arguments.length !== 2) {
         throw new Error("expected exactly 2 arguments");
     }
@@ -44,7 +44,7 @@ function divide(number1, number2) {
     return ( number1Integer / number2Integer ) / ( 10 ** ( number1Decimals - number2Decimals ) );
 }
 
-function multiply(number1, number2) {
+export function multiply(number1, number2) {
     if (arguments.length !== 2) {
         throw new Error("expected exactly 2 arguments");
     }
@@ -63,7 +63,7 @@ function multiply(number1, number2) {
     return ( number1Integer * number2Integer ) / ( 10 ** ( number1Decimals + number2Decimals ) );
 }
 
-function subtract(number1, number2) {
+export function subtract(number1, number2) {
     if (arguments.length !== 2) {
         throw new Error("expected exactly 2 arguments");
     }
@@ -85,10 +85,3 @@ function subtract(number1, number2) {
 
     return number1 - number2;
 }
-
-module.exports = {
-    add,
-    divide,
-    multiply,
-    subtract
-};

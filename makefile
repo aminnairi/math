@@ -1,4 +1,4 @@
-.PHONY: install start stop restart test clean
+.PHONY: install start stop restart test clean build
 
 install: start
 	docker-compose exec node npm install
@@ -17,3 +17,6 @@ test: start
 
 clean: start
 	docker-compose exec node rm -rf .config .node_repl_history .npm .nyc_output node_modules
+
+build: start
+	docker-compose exec node npm run build

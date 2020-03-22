@@ -1,6 +1,6 @@
 "use strict";
 
-function decimalsUntilInteger(number) {
+export function decimalsUntilInteger(number) {
     if (arguments.length !== 1) {
         throw new Error("expected exactly 1 argument");
     }
@@ -19,7 +19,3 @@ function decimalsUntilInteger(number) {
 
     return [decimals, parseInt(split.join(""))];
 }
-
-module.exports = {
-    decimalsUntilInteger
-};
