@@ -39,7 +39,7 @@ subtract(2, 4);
 ## Installation
 
 ```console
-$ npm install --save-dev @aminnairi/math
+$ npm install --save-dev aminnairi/math
 ```
 
 ### Node.js
@@ -85,3 +85,19 @@ import { add, divide, multiply, subtract } from "@aminnairi/math";
 
 - [NPM](https://nodejs.org/en/)
 
+
+## Why
+
+```javascript
+console.log(0.1 + 0.2); // 0.30000000000000004
+```
+
+```javascript
+import { add } from "@aminnairi/math";
+
+console.log(add(0.1, 0.2)); // 0.3
+```
+
+## Contributing
+
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md).

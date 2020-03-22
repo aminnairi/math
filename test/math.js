@@ -31,6 +31,7 @@ describe("math", function() {
             Expect.expect(add(0.16, 0.07)).to.equal(0.23);
             Expect.expect(add(2323, 0.1)).to.equal(2323.1);
             Expect.expect(add(2323, 0.07)).to.equal(2323.07);
+            Expect.expect(add(0.03, 0.8)).to.equal(0.83);
         });
     });
 
