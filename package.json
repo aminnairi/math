@@ -1,6 +1,6 @@
 {
     "name": "@aminnairi/math",
-    "version": "0.1.2",
+    "version": "0.1.0",
     "description": "Reliable add, divide, multiply & subtract results.",
     "homepage": "https://github.com/aminnairi/math#readme",
     "module": "./lib/math.esm.js",
@@ -33,9 +33,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/aminnairi/math.git"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/aminnairi"
     },
     "devDependencies": {
         "@babel/core": "^7.9.0",
