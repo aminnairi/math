@@ -2,7 +2,7 @@
 
 Reliable add, divide, multiply & subtract results.
 
-[![GitHub](https://img.shields.io/github/license/aminnairi/math)](./LICENSE.md) [![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/aminnairi/math/latest)](https://github.com/aminnairi/math/tree/latest) [https://img.shields.io/badge/downloads-1M%2Fweek-green](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![GitHub](https://img.shields.io/github/license/aminnairi/math)](./LICENSE.md) [![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/aminnairi/math/latest)](https://github.com/aminnairi/math/tree/latest) [![Downloads](https://img.shields.io/badge/downloads-1M%2Fweek-green)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Usage
 
