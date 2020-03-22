@@ -1,6 +1,6 @@
 {
     "name": "@aminnairi/math",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Reliable add, divide, multiply & subtract results.",
     "homepage": "https://github.com/aminnairi/math#readme",
     "module": "./lib/math.esm.js",
