@@ -1,0 +1,43 @@
+{
+    "name": "@aminnairi/math",
+    "version": "0.1.0",
+    "description": "Reliable add, divide, multiply & subtract results.",
+    "homepage": "https://github.com/aminnairi/math#readme",
+    "main": "./lib/math.common.js",
+    "browser": "./lib/math.browser.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "nyc mocha"
+    },
+    "keywords": [
+        "math",
+        "add",
+        "divide",
+        "multiply",
+        "subtract"
+    ],
+    "files": [
+        "./src/math.js",
+        "./src/utils.js",
+        "./lib/math.common.js",
+        "./lib/math.browser.js",
+        "./lib/math.mjs"
+    ],
+    "private": true,
+    "bugs": {
+        "url": "https://github.com/aminnairi/math/issues"
+    },
+    "author": {
+        "name": "Amin NAIRI",
+        "url": "https://github.com/aminnairi"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aminnairi/math.git"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^7.1.1",
+        "nyc": "^15.0.0"
+    }
+}
