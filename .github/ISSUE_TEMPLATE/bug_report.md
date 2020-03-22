@@ -4,7 +4,7 @@ about: Report a problem with the library
 title: Issue with...
 labels: Bug Report
 assignees: aminnairi
-projects: aminnairi/math/1
+projects: math/1
 
 ---
 
