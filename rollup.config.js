@@ -5,11 +5,13 @@ import nodeResolve from "@rollup/plugin-node-resolve";
 
 import { resolve } from "path";
 import { terser } from "rollup-plugin-terser";
+import { eslint } from "rollup-plugin-eslint";
 
 export default [
     {
         input: resolve("src", "math.js"),
         plugins: [
+            eslint(),
             commonjs(),
             nodeResolve(),
             terser()
@@ -22,6 +24,7 @@ export default [
     {
         input: resolve("src", "math.js"),
         plugins: [
+            eslint(),
             commonjs(),
             nodeResolve(),
             terser()
@@ -34,6 +37,7 @@ export default [
     {
         input: resolve("src", "math.js"),
         plugins: [
+            eslint(),
             commonjs(),
             nodeResolve(),
             terser()

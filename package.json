@@ -45,6 +45,7 @@
         "mocha": "^7.1.1",
         "nyc": "^15.0.0",
         "rollup": "^2.1.0",
+        "rollup-plugin-eslint": "^7.0.0",
         "rollup-plugin-terser": "^5.3.0"
     },
     "browserslist": [
@@ -72,5 +73,17 @@
             "html"
         ]
     },
-    "dependencies": {}
+    "eslintConfig": {
+        "parserOptions": {
+            "ecmaVersion": 8,
+            "sourceType": "module"
+        },
+        "rules": {
+            "semi": "error",
+            "indent": [
+                "error",
+                4
+            ]
+        }
+    }
 }
