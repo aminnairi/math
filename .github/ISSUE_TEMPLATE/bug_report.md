@@ -1,5 +1,5 @@
 ---
-template: Bug Report
+name: Bug Report
 about: Report a problem with the library
 title: Issue with...
 labels: Bug Report
