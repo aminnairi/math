@@ -1,4 +1,6 @@
 ---
+template: Bug Report
+about: Report a problem with the library
 title: Issue with...
 labels: Bug Report
 assignees: aminnairi
